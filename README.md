@@ -94,7 +94,7 @@ For generating keys, OpenSSL has been used.
 - Generate an RSA private key, of size 2048, and output it to a file named key.pem:
 - Generate a public RSA key with the private key as input and output it to a file named public.pem:
 
-![openssl_generate_private_public_pem-files.PNG](screenshots%2Fopenssl_generate_private_public_pem-files.PNG)
+![openssl_generate_private_public_pem-files.PNG](images%2Fopenssl_generate_private_public_pem-files.PNG)
 
 
 ### Spring Security Configurations
