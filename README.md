@@ -127,8 +127,8 @@ Using spring profile annotation @Profile("prod"), we can control the display of 
 
 - VM Argument
 
-![vm_argument_spring_active_profile.png](imagess%2Fvm_argument_spring_active_profile.png)
+![vm_argument_spring_active_profile.png](images%2Fvm_argument_spring_active_profile.png)
 
 If the value of spring profile is 'prod', then swagger won't be available. Please refer the below screenshot:
 
-![swagger_not_available.png](imagess%2Fswagger_not_available.png)
+![swagger_not_available.png](images%2Fswagger_not_available.png)
