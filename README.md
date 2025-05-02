@@ -96,7 +96,7 @@ For generating keys, OpenSSL has been used.
 
 ![openssl_generate_private_public_pem-files.PNG](images%2Fopenssl_generate_private_public_pem-files.PNG)
 
-Add your own generated keys in key.pem and public.pem files in resources folder
+- Add your own generated keys in key.pem and public.pem files in resources folder
 
 ### Spring Security Configurations
 
