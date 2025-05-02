@@ -103,12 +103,10 @@ Configuration class which implements the Spring security for both Basic Auth and
 
 - Basic Auth security for generating the access token using username and password
 
-![basic_auth_spring_security_config.png](screenshots%2Fbasic_auth_spring_security_config.png)
 
 - Makes use of the RSA keys that we have generated earlier to define the JwtEncoder & JwtDecoder 
 beans, defines SecurityFilterChain bean for securing the private APIs with the OAuth2 Resource server.
 
-![oauth2_jwt_bearer_token_spring_security_config.png](screenshots%2Foauth2_jwt_bearer_token_spring_security_config.png)
 
 ### Database
 
@@ -120,13 +118,6 @@ MYSQL has been used in this project.
 
    http://localhost:8081/my-application/swagger-ui/index.html
 
-- Swagger Authorization
-
-![available_swagger_authentications.PNG](screenshots%2Favailable_swagger_authentications.PNG)
-
-- Swagger UI Details
-
-![swagger_ui.png](screenshots%2Fswagger_ui.png)
 
 ### Disable OpenAPI Swagger for Production Environment
 
@@ -136,8 +127,8 @@ Using spring profile annotation @Profile("prod"), we can control the display of 
 
 - VM Argument
 
-![vm_argument_spring_active_profile.png](screenshots%2Fvm_argument_spring_active_profile.png)
+![vm_argument_spring_active_profile.png](imagess%2Fvm_argument_spring_active_profile.png)
 
 If the value of spring profile is 'prod', then swagger won't be available. Please refer the below screenshot:
 
-![swagger_not_available.png](screenshots%2Fswagger_not_available.png)
+![swagger_not_available.png](imagess%2Fswagger_not_available.png)
