@@ -83,7 +83,7 @@ This application has implemented JWT authentication with Spring Security 6:
 - Spring Boot 3.4.5
 - MySQL Database
 - Spring Data JPA
-- Spring security 6.1.5 (Implemented Basic Auth in this project)
+- Spring Security 6.1.5 (Implemented Basic Auth in this project)
 - Lombok
 - OpenApi 3 Specifications
 
