@@ -80,9 +80,9 @@ This application has implemented JWT authentication with Spring Security 6:
 ### Project Technologies
 
 - Java version: 21, vendor: Oracle Corporation
-- Spring boot 3.4.5
-- MYSql Database
-- Spring boot JPA
+- Spring Boot 3.4.5
+- MySQL Database
+- Spring Data JPA
 - Spring security 6.1.5 (Implemented Basic Auth in this project)
 - Lombok
 - OpenApi 3 Specifications
